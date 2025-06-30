@@ -260,6 +260,14 @@ body {
     }
 }
 
+.accordion-button:not(.collapsed) {
+    background-color: #f6ad55;
+    color: #000;
+}
+
+.accordion-button:not(.collapsed)::after {
+    filter: brightness(0);
+}
 
 .section-about {
     background-color: #2a2a2a;
